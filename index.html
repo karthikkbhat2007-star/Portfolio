@@ -99,23 +99,33 @@
         </div>
     </div>
     <div class = "Contact">
-        <h2>Contact</h2>
-        <h4>Follow me on social media</h4>
-        <a href="https://www.instagram.com/karthikkbhat_24/" target="_blank">Instagram</a>
+        <h2 id = "connect-heading">Let's Connect</h2>
         <div class = "Contact-ele">
             <form type="text" class="form" >
                 <div id = "Name">
                     <label for="name">Name:</label>
-                    <input type="text" id="name" placeholder="Your Name">
+                    <input type="text" id="name" placeholder="Your Name" style="width: 250px; text-align: center">
                 </div>
                 <div id = "Email">
                     <label for="email">Email:</label>
-                    <input type="email" id="email" placeholder="Your Email">
+                    <input type="email" id="email" placeholder="Your Email" style="width: 250px; text-align: center;">
+                </div>
+                <div id = "Message">
+                    <label for="message" id = "message-label">Message:</label>
+                    <textarea id="message" placeholder="Your Message" id = "message-textarea" style="width: 250px; height: 80px; text-align: center"></textarea>
                 </div>
                 <div class = 'button'>
-                    <input type="submit" value="Send">
+                    <input type="submit" value="Send" style="width: 200px;"  action="https://formspree.io/f/xojywjwo" method="POST">
                 </div>
             </form>
+            <div id = "Social">
+                <h3 id = "social-heading">Contact me on social media</h3>
+                <div id = "social-icons">
+                    <a href="https://www.instagram.com/karthikkbhat_24/" target="_blank" title="Follow on Instagram"><img src="asset/Images/Insta_Logo.png" alt="Instagram" id = "insta-logo"></a>
+                    <a href="https://wa.me/918310477011?text=I%20wish%20to%20send%20word%20to%20Karthik" target="_blank" title="Send a message on WhatsApp"><img src="asset/Images/Whatsapp_Logo.png" alt="WhatsApp" id = "whatsapp-logo"></a>
+                    <a href="https://www.linkedin.com/in/karthik-k-bhat-34572236a" target="_blank" title="Connect on LinkedIn"><img src="asset/Images/LinkedIn_Logo.png" alt="LinkedIn" id = "linkedin-logo"></a>
+                </div>
+            </div>
         </div>
     </div>
 </body>
